@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tebak Isi Tas Erra</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="game">
+
+        <!-- JUDUL -->
+        <h1>🎒 Tebak Isi Tas Erra</h1>
+
+        <p class="subtitle">
+            Perhatikan tas Erra dan pilih barang yang menurutmu ada di dalamnya!
+        </p>
+
+
+        <!-- AREA TAS -->
+        <div class="main-area">
+
+            <div class="bag-area">
+
+                <div id="bag" class="bag">
+                    🎒
+                </div>
+
+                <div id="bagItems" class="bag-items"></div>
+
+            </div>
+
+
+            <!-- PERTANYAAN -->
+            <div class="question-area">
+
+                <h2>
+                    YANG MANA<br>
+                    ISI TAS ERRA?
+                </h2>
+
+                <div class="fail-counter">
+                    FAIL:
+                    <span id="failCount">0</span> / 3
+                </div>
+
+                <div id="message" class="message">
+                    Pilih salah satu barang!
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- PILIHAN BARANG -->
+        <h3>Pilih Barang</h3>
+
+        <div id="choices" class="choices">
+
+            <!-- Pilihan dibuat oleh JavaScript -->
+
+        </div>
+
+
+        <!-- TOMBOL ULANG -->
+        <button id="restartButton" class="restart">
+            🔄 MAIN LAGI
+        </button>
+
+    </div>
+
+
+    <script src="javascript.js"></script>
+
+</body>
+</html>
